@@ -1,4 +1,9 @@
-#!/bin/
+#!/bin/sh
 
-x=ls
-echo $x
+echo "file name $0"
+echo "first parameter: $1"
+echo "second parameter: $2"
+echo "Quoted values: $@"
+echo "Quanted values: $*"
+echo "Total number of Parametres: $#"
+
