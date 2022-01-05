@@ -6,4 +6,9 @@ echo "second parameter: $2"
 echo "Quoted values: $@"
 echo "Quanted values: $*"
 echo "Total number of Parametres: $#"
+for arg in $*:
+do
+echo $arg
+done
+
 
