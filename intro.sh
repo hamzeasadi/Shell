@@ -1,3 +1,4 @@
 #!/bin/sh
 
-echo $*
+read inputdata
+echo inputdata
