@@ -1,10 +1,6 @@
-#!/bin/sh
+#!/bin/sh 
 
-read_name(){
-echo "please enter the name: "
-read name
-return name
-}
-
-
-read_name
+x=$*
+y=$1
+echo $x
+echo $y
