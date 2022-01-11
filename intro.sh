@@ -2,5 +2,5 @@
 
 x=$*
 y=$1
+unset x
 echo $x
-echo $y
