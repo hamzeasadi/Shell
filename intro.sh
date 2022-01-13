@@ -2,4 +2,4 @@
 
 x=$*
 echo $x
-echo $1
+echo $0
