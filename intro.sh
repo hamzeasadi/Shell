@@ -2,4 +2,3 @@
 
 x=$*
 echo $x
-echo $0
