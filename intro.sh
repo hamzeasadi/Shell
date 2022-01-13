@@ -1,4 +1,4 @@
 #!/bin/sh 
 
-x=$*
-echo $x
+shellpid=$$
+echo $shellpid
