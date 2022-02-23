@@ -3,3 +3,5 @@
 date
 echo -e "\n"
 who
+echo -e "\n next line"
+hostname
