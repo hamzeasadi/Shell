@@ -5,3 +5,7 @@ echo -e "\n"
 who
 echo -e "\n next line"
 hostname
+for i in "ali" "asqar"
+do
+echo $i
+done
