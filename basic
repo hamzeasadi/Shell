@@ -1,1 +1,5 @@
+#!/bin/bash
 
+date
+echo -e "\n"
+who
