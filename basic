@@ -1,8 +1,23 @@
 #!/bin/bash
 
 
-echo -e "would you like to see the content of \ dir \? (y/n)-->\c "
+echo -e "what do you want to see ?
+today's date (d)
+Current logged in user (u)
+the content of $PWD (c)
+enter your choice (d/u/c) --> \c "
+
 read answer
-if [ $answer = "y" ]; then
-ls -F /
+
+if [ $answer = "d" ]; then
+	echo `date`
+elif test $answer = u ; then
+echo `whoami`
+
+elif [ $answer = "c" ]; then
+ls -a
+
+else
+echo -e "the option wasnt correct"
+
 fi
