@@ -17,5 +17,10 @@ Counter=0
 until [ $Counter -ge 5 ]
 do
 echo $Counter
-Counter=`expr $Counter + 1`
+Counter=$(expr $Counter + 1)
 done 
+echo $0
+echo $!
+echo $* && echo $@
+echo -e "\n"
+echo $#
