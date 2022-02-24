@@ -1,0 +1,21 @@
+#!/bin/bash
+
+
+#for i in `seq 5`
+#do
+#echo $i
+#done
+#Counter=0
+#while test $Counter -le 5
+#do
+#echo $Counter
+#Counter=`expr $Counter + 1`
+#done
+
+#	until command
+Counter=0
+until [ $Counter -ge 5 ]
+do
+echo $Counter
+Counter=`expr $Counter + 1`
+done 
