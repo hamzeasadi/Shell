@@ -9,15 +9,26 @@ enter your choice (d/u/c) --> \c "
 
 read answer
 
-if [ $answer = "d" ]; then
-	echo `date`
-elif test $answer = u -o $answer = "U"; then
-echo `whoami`
+#if [ $answer = "d" ]; then
+#	echo `date`
+#elif test $answer = u -o $answer = "U"; then
+#echo `whoami`
+#
+#elif [ $answer = "c" ]; then
+#ls -a
+#
+#else
+#echo -e "the option wasnt correct"
+#
+#fi
 
-elif [ $answer = "c" ]; then
+case $answer in
+u | U )
+whoami 
+;;
+d | D )
+date
+;;
+c | C )
 ls -a
-
-else
-echo -e "the option wasnt correct"
-
-fi
+esac
