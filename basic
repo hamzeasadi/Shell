@@ -1,11 +1,5 @@
 #!/bin/bash
 
-date
-echo -e "\n"
-who
-echo -e "\n next line"
-hostname
-for i in "ali" "asqar"
-do
-echo $i
-done
+echo -e "enter your name -- > \c"
+read myname
+echo -e "my name is $myname "
