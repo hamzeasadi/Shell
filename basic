@@ -1,5 +1,8 @@
 #!/bin/bash
 
-echo -e "enter your name -- > \c"
-read myname
-echo -e "my name is $myname "
+
+echo -e "would you like to see the content of \ dir \? (y/n)-->\c "
+read answer
+if [ $answer = "y" ]; then
+ls -F /
+fi
