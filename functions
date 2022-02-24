@@ -1,0 +1,11 @@
+#!/bin/bash
+
+
+function createdir(){
+if [ -d $1 ]; then
+echo -e "$1 directory already exist\n"
+exit 255
+else
+mkdir $1
+fi
+}
