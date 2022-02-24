@@ -11,7 +11,7 @@ read answer
 
 if [ $answer = "d" ]; then
 	echo `date`
-elif test $answer = u ; then
+elif test $answer = u -o $answer = "U"; then
 echo `whoami`
 
 elif [ $answer = "c" ]; then
